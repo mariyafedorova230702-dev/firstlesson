@@ -36,7 +36,7 @@
 #5
 
 #name_file = input('enter name file: ')
-#if name_file.startswith('a') and name_file.lower:
+#if name_file.startswith('a') and name_file.lower():
     #print("There is a letter 'a' in the name")
 #else:
     #print('There is no letter A in the name') 
