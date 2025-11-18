@@ -238,12 +238,19 @@ for word in words:
 #
 # 4. Используйте extend() для объединения списков
 
-numbers = [1, 2, 3, 4]
-letters = ['a', 'b', 'c']
-num_let = []
-num_let2 = []
-for num in numbers:
-   for letter in letters:
-      num_let.append(num + letter) 
-      print(num_let)
-   
+# numbers = [1, 2, 3, 4]
+# letters = ['a', 'b', 'c']
+# num_let = []
+# num_let2 = []
+# for num in numbers:
+#    for letter in letters:
+#       num_let.append(f'{num} - {letter}') 
+#       print(num_let)
+
+
+      
+   # Попросите пользователя ввести число N
+# Выведите все числа от 1 до N
+# Используйте while цикл
+
+ 
