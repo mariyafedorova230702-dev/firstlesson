@@ -202,6 +202,7 @@
 #     for line in clean_lines:
 #         file.write(line +"\n")
 
+
 # print('meessy_data.txt: ')
 # with open ('clean_data.txt', 'r',encoding='utf-8') as file :
 #         print(file.read())
@@ -243,3 +244,22 @@
 #     num_chars_no_spaces += len(line.replace(" ",""))
 
 # print(f"Строк: {num_lines}, Слов: {num_words}, Символов: {num_chars}, Символов без проблов: {num_chars_no_spaces}")
+
+
+
+
+# 1. Создайте файл 'numbers.txt' с числами (некоторые повторяются):
+#    1, 2, 3, 2, 4, 5, 1, 3, 6, 2
+# 2. Прочитайте файл и разделите числа
+# 3. Используя set(), найдите только УНИКАЛЬНЫЕ числа
+# 4. Запишите уникальные числа в файл 'unique_numbers.txt'
+# 5. Выведите оригинальный файл, количество всех чисел и количество уникальных
+
+with open('numbers.txt','w',encoding='utf-8') as file:
+    file.write("1, 2, 3, 2, 4, 5, 1, 3, 6, 2")
+
+with open('numbers.txt', 'r',encoding='utf-8') as file:
+    content = file.read()
+
+numbers = content.split()
+numbers = [int (num.strip())]
