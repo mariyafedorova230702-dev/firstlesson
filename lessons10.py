@@ -203,4 +203,11 @@ users =  {'user1': 'pass123', 'user2': 'pass456'}
 print ('=== СИСТЕМА ВХОДА ===')
 
 while True:
-    
+    option = int(input('Введите опцию (1=Вход, 2=Выход): '))
+    if option != [1, 2]:
+        print('Неверная опция')
+    if option == 1:
+        login = input('Введите логин: ')
+   
+
+
