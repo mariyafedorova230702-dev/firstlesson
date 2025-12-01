@@ -1,0 +1,55 @@
+══════════════════════════════════════
+ОТЧЕТ О ПОРОДАХ СОБАК
+══════════════════════════════════════
+
+Породы С подпородами:
+- african (1 подпороды): wild
+- australian (2 подпороды): kelpie, shepherd
+- bakharwal (1 подпороды): indian
+- buhund (1 подпороды): norwegian
+- bulldog (3 подпороды): boston, english, french
+- bullterrier (1 подпороды): staffordshire
+- cattledog (1 подпороды): australian
+- chippiparai (1 подпороды): indian
+- collie (1 подпороды): border
+- corgi (1 подпороды): cardigan
+- dane (1 подпороды): great
+- danish (1 подпороды): swedish
+- deerhound (1 подпороды): scottish
+- elkhound (1 подпороды): norwegian
+- finnish (1 подпороды): lapphund
+- frise (1 подпороды): bichon
+- gaddi (1 подпороды): indian
+- german (1 подпороды): shepherd
+- greyhound (2 подпороды): indian, italian
+- hound (7 подпороды): afghan, basset, blood, english, ibizan, plott, walker
+- mastiff (4 подпороды): bull, english, indian, tibetan
+- mountain (2 подпороды): bernese, swiss
+- mudhol (1 подпороды): indian
+- ovcharka (1 подпороды): caucasian
+- pariah (1 подпороды): indian
+- pinscher (1 подпороды): miniature
+- pointer (2 подпороды): german, germanlonghair
+- poodle (4 подпороды): medium, miniature, standard, toy
+- rajapalayam (1 подпороды): indian
+- retriever (4 подпороды): chesapeake, curly, flatcoated, golden
+- ridgeback (1 подпороды): rhodesian
+- rough (1 подпороды): collie
+- schnauzer (2 подпороды): giant, miniature
+- segugio (1 подпороды): italian
+- setter (3 подпороды): english, gordon, irish
+- sheepdog (3 подпороды): english, indian, shetland
+- spaniel (7 подпороды): blenheim, brittany, cocker, irish, japanese, sussex, welsh
+- spitz (2 подпороды): indian, japanese
+- springer (1 подпороды): english
+- terrier (25 подпороды): american, andalusian, australian, bedlington, border, boston, cairn, dandie, fox, irish, kerryblue, lakeland, norfolk, norwich, patterdale, russell, scottish, sealyham, silky, tibetan, toy, welsh, westhighland, wheaten, yorkshire
+- waterdog (1 подпороды): spanish
+- wolfhound (1 подпороды): irish
+
+══════════════════════════════════════
+СТАТИСТИКА:
+Всего пород: 108
+Пород БЕЗ подпород: 66
+Пород С подпородами: 42
+Всего подпород: 99
+══════════════════════════════════════
