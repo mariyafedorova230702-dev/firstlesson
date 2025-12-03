@@ -242,37 +242,37 @@
 #
 # ✓ Отчет сохранен в breeds_report.txt
 
-import requests
+# import requests
 
-url = "https://dog.ceo/api/breeds/list/all"
-r = requests.get(url)
-data = r.json()["message"]
+# url = "https://dog.ceo/api/breeds/list/all"
+# r = requests.get(url)
+# data = r.json()["message"]
 
-with_sub = {breed: subs for breed, subs in data.items() if subs}
-without_sub = [breed for breed, subs in data.items() if not subs]
+# with_sub = {breed: subs for breed, subs in data.items() if subs}
+# without_sub = [breed for breed, subs in data.items() if not subs]
 
-total_subbreeds = sum(len(subs) for subs in with_sub.values())
+# total_subbreeds = sum(len(subs) for subs in with_sub.values())
 
-report = []
+# report = []
 
-report.append("══════════════════════════════════════")
-report.append("ОТЧЕТ О ПОРОДАХ СОБАК")
-report.append("══════════════════════════════════════\n")
+# report.append("══════════════════════════════════════")
+# report.append("ОТЧЕТ О ПОРОДАХ СОБАК")
+# report.append("══════════════════════════════════════\n")
 
-report.append("Породы С подпородами:")
-for breed, subs in with_sub.items():
-    subs_list = ", ".join(subs)
-    report.append(f"- {breed} ({len(subs)} подпороды): {subs_list}")
+# report.append("Породы С подпородами:")
+# for breed, subs in with_sub.items():
+#     subs_list = ", ".join(subs)
+#     report.append(f"- {breed} ({len(subs)} подпороды): {subs_list}")
 
-report.append("\n══════════════════════════════════════")
-report.append("СТАТИСТИКА:")
-report.append(f"Всего пород: {len(data)}")
-report.append(f"Пород БЕЗ подпород: {len(without_sub)}")
-report.append(f"Пород С подпородами: {len(with_sub)}")
-report.append(f"Всего подпород: {total_subbreeds}")
-report.append("══════════════════════════════════════")
+# report.append("\n══════════════════════════════════════")
+# report.append("СТАТИСТИКА:")
+# report.append(f"Всего пород: {len(data)}")
+# report.append(f"Пород БЕЗ подпород: {len(without_sub)}")
+# report.append(f"Пород С подпородами: {len(with_sub)}")
+# report.append(f"Всего подпород: {total_subbreeds}")
+# report.append("══════════════════════════════════════")
 
-with open("breeds_report.txt", "w", encoding="utf-8") as f:
-    f.write("\n".join(report))
+# with open("breeds_report.txt", "w", encoding="utf-8") as f:
+#     f.write("\n".join(report))
 
-print("✓ Отчет сохранен в breeds_report.txt")
+# print("✓ Отчет сохранен в breeds_report.txt")

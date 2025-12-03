@@ -255,11 +255,11 @@
 # 4. Запишите уникальные числа в файл 'unique_numbers.txt'
 # 5. Выведите оригинальный файл, количество всех чисел и количество уникальных
 
-with open('numbers.txt','w',encoding='utf-8') as file:
-    file.write("1, 2, 3, 2, 4, 5, 1, 3, 6, 2")
+# with open('numbers.txt','w',encoding='utf-8') as file:
+#     file.write("1, 2, 3, 2, 4, 5, 1, 3, 6, 2")
 
-with open('numbers.txt', 'r',encoding='utf-8') as file:
-    content = file.read()
+# with open('numbers.txt', 'r',encoding='utf-8') as file:
+#     content = file.read()
 
-numbers = content.split()
-numbers = [int (num.strip())]
+# numbers = content.split()
+# numbers = [int (num.strip())]

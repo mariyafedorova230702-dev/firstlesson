@@ -261,10 +261,10 @@
 # 10. Выведите финальный результат в верхнем регистре    
 
 
-spisok = input('vvedi spisok pokupok cher zapyatu 5 shtuk: ')
-item = spisok.split(',')
-item0 = item[0].capitalize()
-item1 = item[1].capitalize()
-item2 = item[2].capitalize()
-item3 = item[3].capitalize()
-item4 = item[4].capitalize()
+# spisok = input('vvedi spisok pokupok cher zapyatu 5 shtuk: ')
+# item = spisok.split(',')
+# item0 = item[0].capitalize()
+# item1 = item[1].capitalize()
+# item2 = item[2].capitalize()
+# item3 = item[3].capitalize()
+# item4 = item[4].capitalize()

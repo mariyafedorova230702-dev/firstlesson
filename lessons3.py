@@ -89,13 +89,13 @@
 #print(letter)
 
 
-#10 
+# #10 
 
-text = input('Enter text separated by spaces: ')
-print(text.lower())
-words = text.split()
-words.sort()
-print(words)
-comma = ','.join(words)
-print(comma)
+# text = input('Enter text separated by spaces: ')
+# print(text.lower())
+# words = text.split()
+# words.sort()
+# print(words)
+# comma = ','.join(words)
+# print(comma)
 
